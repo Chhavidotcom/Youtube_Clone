@@ -1,109 +1,123 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    font-family: 'poppins','sans-serif';
-}
-img{
+  
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  body {
+    background-color: #0c1115;
+  }
+  
+  img {
     cursor: pointer;
-}
-
-.d-flex{
+  }
+  
+  .d-flex {
     display: flex;
     align-items: center;
-}
-
-nav{
-    height: 55px;
+  }
+  
+  nav{
+    height: 56px;
     padding: 10px 10px;
     justify-content: space-between;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 100;
-    background-color: white;
+    background-color: #0c1115;
 }
-.nav-right img{
+   
+  
+  .nav-right img {
+    
     width: 25px;
     margin-right: 20px;
-}
-.hamburger-logo {
-    height: 24px;
-    margin-right: 24px;
-    margin-left: 24px;
-}
-
-.nav-right img{
-    width: 25px;
-    margin-right: 20px;
+  }
+  
+  .nav-right .userImg {
+  
     border-radius: 50%;
-
-}
-.nav-left img{
+  }
+  
+  .nav-left img {
+    margin-right: 10%;
     width: 25px;
-}
-.nav-left .ytlogo{
-    width: 75px;
-    height: 25px;
-}
-.nav-middle{
-    width: 50%;
+    
+  }
+  
+  .nav-left .ytLogo {
+    width: 105px;
+    
+  }
+  
+  .nav-middle {
 
-}
-.nav-middle .mic-icon{
     width: 50%;
-}
-.search-box{
-    flex: 1;
+   
+  }
+  
+  .nav-middle .mic-icon {
+    width: 20px;
+  }
+  
+  .search-box {
     height: 36px;
-    padding-left: 10px;
-    font-size: 16px;
-    border: 1px solid rgb(192, 192, 192);
-    border-radius: 50px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-    width: 0;
-}
-.search-box input{
     width: 90%;
+    border: 1px solid hsla(0,0%,19%,1);
+    border-radius: 50px;
+    justify-content: space-between;
+    padding-left: 1rem;
+  }
+  
+  .search-box input {
+    
+    width: 80%;
+    height: 36px;
     border: none;
-    padding: 0.7rem;
+    padding: 0.4rem;
     outline: none;
     margin-right: 20px;
-   border-radius: 50px;
-   background-color: transparent;
-   color: white;
-
-}
-.search-box .search-button{
-    padding: 17px;
-    width: 8%;
-    height: 10%;
-
-}
-.search-button {
-    height: 60px;
-    width: 60px;
-    background-color: rgb(240, 240, 240);
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(192, 192, 192);  
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1rem;
+    font-family: Roboto, Noto, sans-serif;
+    color: hsla(0,0%,100%,0.88);
+  }
+  
+  .search-box img {
+    height: 36px;
+    padding: 10px;
+  }
+  
+  .search-Div {
+    width: 10%;
+    height: 36px;
+    background-color: #2e2e2e;;
     border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
     justify-content: center;
-    
-}
-.mic-div{
-   
-    width: 50px ;
-    height: 50px;
+  }
+  
+  .mic-div {
+    margin-left: 2%;
+    width: 40px;
+    height: 36px;
     justify-content: center;
-    border-radius: 50px;
-    
-}
-.mic-icon{
-    border-radius: 50px;
-}
-
+   background-color: hsla(0,0%,19%,1);
+   border-radius: 50%;
+  }
+  
+  .mic-icon {
+    height: 24px;
+    width: 20px;
+  }

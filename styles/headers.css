@@ -121,3 +121,23 @@
     height: 24px;
     width: 20px;
   }
+  @media only screen and (max-width: 500px) {
+    .sidebar a p,
+    .uploadImg,
+    .notifiationImg,
+    .ytLogo,
+    .mic-div,.search-Div  {
+      display: none;
+    }
+  .card{
+    width: 350px;
+  }
+  
+  .video-container{
+    padding-left: .5rem;
+  }
+  .content{
+    flex-direction: column;
+  }
+  }
+  

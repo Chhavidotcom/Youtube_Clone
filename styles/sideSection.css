@@ -7,7 +7,6 @@
 }
 
 .sidebar {
-    /* border: 2px solid red; */
     width: 15%;
     height: 100vh;
     position: fixed;
@@ -46,3 +45,23 @@
     border-radius: 10px;
     background-color: #2e2e2e;
   }
+  @media only screen and (max-width: 500px) {
+    .sidebar a p,
+    .uploadImg,
+    .notifiationImg,
+    .ytLogo,
+    .mic-div,.search-Div  {
+      display: none;
+    }
+  .card{
+    width: 350px;
+  }
+  
+  .video-container{
+    padding-left: .5rem;
+  }
+  .content{
+    flex-direction: column;
+  }
+  }
+  

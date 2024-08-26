@@ -1,0 +1,209 @@
+
+.video-container {
+    margin-top: 5%;
+    padding-left: 2rem;
+   
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .video-container .content-left {
+    flex-basis: 67%;
+    
+  }
+  
+  .video-container .content-left video {
+    width: 100%;
+    border-radius: 20px;
+   
+  }
+  
+  .video-container .content-right {
+    flex-basis: 32%;
+    padding-right: 1rem;
+  }
+  
+  .video-list {
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .video-list img {
+    width: 200px;
+    border-radius: 10px;
+  }
+  .video-info{
+    margin-left:5%;
+  }
+  
+  .below-video-container {
+
+    color: white;
+  }
+  
+  .below-video-container h1 {
+    font-size: 1.7rem;
+  }
+  
+  .other-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  
+  .other-details-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    /* border: 2px solid green; */
+  }
+ 
+  .channelNameAndIcon,
+  .subsButtonContainer,
+  .other-details-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  
+
+  
+  /* .other-details-right img {
+    width: 30px;  
+    height: auto;
+    border-radius: 50px;
+    background-color: hsla(0,0%,19%,1);
+  } */
+  .container {
+    display: flex;
+    align-items: center; /* Vertically center items */
+  }
+  
+  .like-dislike-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .like, .dislike, .share, .more {
+    display: flex;
+    align-items: center;
+    background-color: hsla(0, 0%, 19%, 1);
+    padding: 4px 8px; /* Adjust padding for smaller elements */
+    border-radius: 4px;
+    color: white;
+    font-size: 14px; /* Smaller font size */
+    margin: 0 4px; /* Space between items */
+  }
+  
+  .like h1, .dislike h1, .share h1, .more h1 {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Smaller font size for headers */
+  }
+  
+  .like img, .dislike img, .share img, .more img {
+    margin-left: 4px; /* Space between text and image */
+    width: 20px; /* Adjust size as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+ 
+  
+  
+  
+  
+  .channelIcon {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 1rem;
+  }
+  
+  .subsCount {
+    font-size: 0.7rem;
+  }
+  
+  .subsButtonContainer button  {
+    border-radius: 50px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+  }
+  
+  .subsButton {
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+  }
+  
+  .descriptionContainer {
+    background-color: #2e2e2e;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .descriptionContainer p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  
+  .commentContainer {
+    margin-top: 2rem;
+  }
+  
+  .commentContainer h1 {
+    font-size: 1.5rem;
+  }
+  .writeCommentContainer {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .writeCommentContainer input {
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 0.5px solid grey;
+    color: white;
+    width: 100%;
+  }
+  
+  .previousComments {
+    margin-top: 1rem;
+    margin-bottom:1rem;
+  }
+  
+  .nameAndComment .channelName {
+    font-size: 0.7rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .sidebar a p,
+    .uploadImg,
+    .notifiationImg,
+    .ytLogo,
+    .mic-div,.search-Div  {
+      display: none;
+    }
+  .card{
+    width: 350px;
+  }
+  
+  .video-container{
+    padding-left: .5rem;
+  }
+  .content{
+    flex-direction: column;
+  }
+  }
+  
